@@ -17,8 +17,8 @@ I used Eclipse for this project. You don't have to manually compile anything. Ec
 #### - click Apply, then Run
 #### - Open a browser and go to: 
 #### http://localhost:1029
-### If everything is correct you should see the HTTPD Server Test Page, and clicking the kitten image should open the larger image. 
+#### If everything is correct you should see the HTTPD Server Test Page, and clicking the kitten image should open the larger image. 
 
 ## My experience with this project
 
-I used Java sockets
+I used Java sockets and threads to build a basic HTTP server that can handle multiple requests. It was interesting to see how browsers talk to servers through raw text requests and how sending proper headers makes or breaks everything. Setting up the file paths and MIME types took a bit of trial and error but once everything clicked it worked smoothly in Eclipse. 
